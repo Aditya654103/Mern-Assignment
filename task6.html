@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding-right: 200px;
+            background-color:#27d0d8;
+            border-radius:10px;
+            border:1px black solid;
+        }
+        thead{
+            font-weight: bold;
+        }
+        .outer{
+            display: flex;
+            justify-content: center;
+            width:600px;
+            height: 500px;
+            clear: both;
+        }
+        .box{
+            height:120px;
+            width:150px;
+            border:5px solid greenyellow;
+            margin:20px;
+        }
+        .A{
+            border-radius: 5%;
+        }
+        .B{
+            border-radius: 80%;
+        }
+        .C{
+            border-radius: 10%;
+        }
+        .D{
+            border-radius: 20%;
+        }
+        .E{
+            border-top-left-radius:8%;
+            border-bottom-right-radius:8% ;
+            border-top-right-radius:20%;
+            border-bottom-left-radius:20% ;
+        }
+    </style>
+</head>
+<body>
+    <table  >
+        <thead>
+            <tr>
+                <td>Firstname</td>
+                <td>Lastname</td>
+                <td>Age</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="outer">
+        <div>
+            <div class="A box"></div>
+            <div class="A box"></div>
+            <div class="B box"></div>
+        </div>
+        <div>
+            <div class="A box"></div>
+            <div class="C box"></div>
+            <div class="C box"></div>
+        </div>
+        <div>
+            <div class="D box"></div>
+            <div class="D box"></div>
+            <div class="E box"></div>
+        </div>
+    </div>
+</body>
+</html>

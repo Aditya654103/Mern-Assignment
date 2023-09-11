@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            list-style: none;
+            text-decoration:none;
+        }
+        .A{
+            width:200px;
+            background-color: aqua;
+            margin-left: 50px;
+            margin-top: 50px;
+            border:5px solid white;
+            outline:1px solid black;
+        }
+        .B{
+            display:block;
+            padding:10px;
+            font-family: sans-serif;
+        }
+        .C{
+            margin-top: 40px;
+            margin-left: 30px;
+            display: flex;
+            background-color: lightgray;
+            padding:5px;
+            width:300px;
+            gap: 10px;
+            border:5px solid white;
+            outline:1px solid black;
+        }
+        li{
+            display: table-cell;
+        }
+        .D{
+            font-family: sans-serif;
+        }
+        .B:hover{
+            color:white;
+            background-color: orange;
+        }
+        .D:hover{
+            color: white;
+            background-color:darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="A">
+        <a class="B" href="#">Home</a>
+        <a class="B" href="#">Java</a>
+        <a class="B" href="#">CSS</a>
+        <a class="B" href="#">HTML</a>
+        <a class="B" href="#">Bootstrap</a>
+    </div>
+        <ul class="C">
+            <li><a class="D" href="#">Home|</a></li>
+            <li><a class="D" href="#">Java|</a></li>
+            <li><a class="D" href="#">CSS|</a></li>
+            <li><a class="D" href="#">HTML|</a></li>
+            <li><a class="D" href="#">Bootstrap</a></li>
+        </ul>
+</body>
+</html>
