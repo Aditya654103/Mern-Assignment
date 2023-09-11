@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inner{
+            display: flex;
+            hanging-punctuation: 10px;
+            gap:10px;
+        }
+        .outer{
+            background-color:#D3D3D3;
+            padding:10px;
+            border:1px solid black;
+            box-shadow:0 -1px 5px;
+            width:600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <p>
+            Click any of the following links
+        </p>
+        <div class="inner">
+            <a href="#">Opens in New</a><span>|</span>
+            <a href="#">Opens in Self</a><span>|</span>
+            <a href="#">Opens in Parent</a><span>|</span>
+            <a href="#">Opens in Body</a><span>|</span>
+            <a href="#">Send email</a>
+        </div>
+    </div>
+</body>
+</html>

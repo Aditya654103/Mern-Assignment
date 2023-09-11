@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.ABC>div {
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+  border-radius:5px;
+}
+*{
+padding:0;
+margin:0;
+}
+.ABC{
+  margin-top:30px;
+  float: left;
+}
+.D{
+  margin-left: 400px;
+}
+.div1 {
+  transition-timing-function: linear;
+  background: red;
+}
+.div2 {
+  transition-timing-function: ease;
+  background: blue;}
+.div3 {
+  transition-timing-function: ease-in;
+  background: green;}
+.div4 {
+  transition-timing-function: ease-out;
+  background: yellow;}
+
+.L:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<div class="ABC">
+  <div class="div1 L"></div><br>
+  <div class="div2 L"></div><br>
+  <div class="div3 L"></div><br>
+  <div class="div4 L"></div><br>
+</div>
+<div class="D">
+  <h1>Hoverable Sidenav Buttons</h1><br><br>
+  <p>Hover over the buttons in the left side navigation to open them</p>
+</div>
+
+</body>
+</html>
